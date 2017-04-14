@@ -1,0 +1,180 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:12px;
+	font-family:arial;
+}
+li{
+	list-style:none;
+}
+a{text-decoration:none;font-size: 12px;}
+a:visited{
+	color:#b0b0b0;
+}
+*{
+	background-repeat:no-repeat;
+}
+
+/*头部head*/
+.head{
+	width:100%;
+	height:49px;
+	background:#000;
+	color:#b3b3b3;
+}
+.head-box{
+	width:1240px;
+	height:49px;
+	margin:0 auto;
+	line-height:49px;
+}
+.head-box>a{
+	font-size:17px;
+	height:18px;
+	line-height:18px;
+	font-family:"FZLTXHJW","microsoft yahei";
+}
+.head-box ul{
+	float:right;
+}
+.head-box li{
+	float:left;
+	height:49px;
+	line-height:49px;
+	margin-left:35px;
+}
+.head-box li+li a{
+	color:#ddd;
+}
+.head-box li a:hover{
+	color:#b3b3b3;
+}
+.nav{
+	width:100%;
+	height:657px;
+	position:relative;
+	overflow:hidden;
+}
+.nav-box{
+	width:100%;
+	height:657px;
+}
+.nav-box-img{
+	background: url(../images/miui.jpg) no-repeat ;
+	background-position: center;
+}
+.nav-box-imgs{
+	background-color:transparent;
+	height:297px;
+	padding-top:360px;
+	position:relative;
+	width:1240px;
+	margin:0 auto;
+}
+
+.main{
+	width:1240px;
+	height:57px;
+	padding:55px 0;
+	margin:0 auto;
+	border-bottom:1px solid #e1e1e1;
+}
+.main>div{
+	width:33%;
+	float:left;
+	/*padding-left:90px;*/
+}
+.main a{
+	display:block;
+	text-align:center;
+	border-right:1px solid #e1e1e1;
+}
+.main>div:last-of-type a{
+	border-right:none;
+}
+.main img{
+	margin-right:26px;
+	border-radius:2px;
+}
+.main h3{
+	/*font-family:"FZLTXHJW";*/
+	font-size:20px;
+	height:29px;
+	line-height:29px;
+	color:#333;
+	font-weight:normal;
+}
+.main>div div{
+	display:inline-block;
+}
+.main div p{
+	color:#939393;
+	text-align:left;
+}
+/*hover*/
+.main>div:hover div{
+	color:#ff6700;
+}
+.main>div:hover p{
+	color:#ff6700;
+}
+
+
+.footer{
+	width:1240px;
+	height:95px;
+	padding-top:64px;
+	margin:0 auto;
+}
+.footer ul{
+	height:14px;
+	text-align:center;
+}
+.footer li{
+	font-size:14px;
+	display:inline-block;
+	padding:0 17px;
+	height:14px;
+	line-height:14px;
+	border-right:1px solid #e1e1e1;
+	color:#939393;
+}
+.footer li:last-of-type{
+	border-right:0;
+	margin-top:-0.1px;
+}
+.footer li span{
+	display:inline-block;
+	border:6px solid #aeaeae;
+	border-color:#aeaeae transparent transparent;
+	vertical-align:middle;
+	margin-left:9px;
+	margin-top:4px;
+}
+.footer p{
+	margin-top:23px;
+	text-align:center;
+	color:#c5c6c8;
+}
+.footer li:hover{
+	color:#ff6700;
+	text-decoration:underline;
+}
+.footer li:nth-of-type(2){
+	position:relative;
+}
+.footer li img{
+	position:absolute;
+	height:108px;
+	width:108px;
+	left:0;
+	bottom:20px;
+	display:none;
+}
+.footer li:nth-of-type(2):hover img{
+	display:block;
+}
+
+
