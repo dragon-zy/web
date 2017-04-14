@@ -1,0 +1,202 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:12px;
+	font-family:arial;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	font-size: 12px;
+}
+a:visited{
+	color:#b0b0b0;
+}
+
+/*头部head*/
+.head{
+	width:100%;
+	height:36px;
+	border-bottom:1px solid #e0e0e0;
+}
+.head-box{
+	width:1240px;
+	height:36px;
+	margin:0 auto;
+	line-height:36px;
+}
+.head-box a:last-of-type{
+	color:#333;
+}
+.head-box span{
+	margin:0 10px;
+	color:#e0e6f0;
+}
+
+/*导航nav*/
+.nav{
+	width:1240px;
+	height:61px;
+	margin:30px auto 0;
+	border-bottom:1px solid #ededed;
+}
+.nav-left{
+	float:left;
+}
+.nav-left a{
+	display:inline-block;
+}
+.nav-left img{
+	margin-right:10px;
+	vertical-align:middle;
+	width:50px;
+	height:50px;
+}
+.nav-left span{
+	font-size:20px;
+}
+.nav-right{
+	float:right;
+}
+.nav-right li{
+	float:left;
+	width:82px;
+	height:60px;
+	text-align:center;
+	line-height:61px;
+}
+.nav-right li:first-of-type{
+	border-bottom:1px solid #ff4a00;
+}
+.nav-right li:hover{
+	border-bottom:1px solid #ff4a00;
+}
+
+
+
+
+/*标志性图片banner*/
+
+/*中间部分main*/
+.main{
+	width:1240px;
+	height:700px;
+	margin:0 auto;
+	border-bottom:1px solid #ededed;
+}
+.main-left{
+	float:left;
+	margin-left:300px;
+	height:700px;
+}
+.main-left-1{
+	display:inline-block;
+	margin-top:205px;
+}
+.main-left-1 h2{
+	font-size:60px;
+	color:#000;
+	font-weight:normal;
+}
+.main-left-1 p{
+	padding-top:5px;
+	font-size:22px;
+}
+.main-left-2{
+	margin-top:22px;
+}
+.main-left-2 ul{
+	float:left;
+}
+.main-left-2 li{
+	width:158px;
+	height:38px;
+	border:1px solid #ff4a00;
+	background:#ff6700;
+	line-height:38px;
+	text-align:center;
+	color:white;
+}
+.main-left-2 li:first-of-type{
+	margin-bottom:10px;
+}
+.main-left-2 img{
+	float:left;
+	width:90px;
+	height:90px;
+	margin-left:10px;
+}
+
+.main-right{
+	float:left;
+	margin-left:210px;
+	margin-top:83px;
+}
+.min{
+	width:1240px;
+	height:570px;
+	margin:0 auto;
+	text-align:center;
+	background: url(../images/mishangcheng1.png) no-repeat ;
+	background-position: center;
+	border-bottom:1px solid #ededed;
+}
+
+/*尾部footer*/
+.footer{
+	width:1240px;
+	height:60px;
+	margin:0 auto;
+	padding-top:30px;
+	padding-bottom:100px;
+}
+.footer>ul{
+	display:inline-block;
+}
+.footer>ul li{
+	display:inline-block;
+	margin:0 5px;
+	height:12px;
+	line-height:12px;
+	font-size:12px;
+}
+.footer .off{
+	float:right;
+	width:106px;
+	height:36px;
+	border:1px solid #d0d0d0;
+	position:relative;
+	background:white;
+}
+.off span{
+	height:30px;
+	line-height:30px;
+	display:block;
+	padding:3px;
+}
+.of{
+	border:1px solid #d0d0d0;
+	border-bottom-color:white;
+	position:absolute;
+	bottom:36px;
+	left:-1px;
+	display:none;
+}
+.of li{
+	width:100px;
+	line-height:30px;
+	padding:3px;
+}
+.off:hover .of{
+	display:block;
+}
+.off span:hover{
+	color:#ff6700;
+}
+.of li:hover{
+	color:#ff6700;
+}
